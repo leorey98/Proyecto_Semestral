@@ -51,12 +51,34 @@ body {
     border-radius: 50px;
 }
 .carousel-item .btn{
-    border-color: #fff!important;
+    border-color: var(--red)!important;
 }
 .carousel-item .btn:hover{
     border-color: var(--red)!important;
 }
 
+/* titulo */
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--red);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/* Colección */
+.active-filter-btn{
+    background-color: var(--red)!important;
+    color: rgb(255, 255, 255)!important;
+    border-color: var(--red)!important;
+}
+.collection-img span{
+    top: 50px;
+    right: 20px;
+}
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
