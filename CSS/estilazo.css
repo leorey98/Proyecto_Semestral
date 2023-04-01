@@ -76,9 +76,20 @@ body {
     border-color: var(--red)!important;
 }
 .collection-img span{
-    top: 50px;
-    right: 20px;
+    top: 5px;
+    right: -5px;
+    width: 66px;
+    height: 32px;
+    border-radius: 25%;
 }
+/* color texto*/
+.text-primary{
+    color: var(--red)!important
+}
+.responsive-img {
+    max-width: 50%;
+    height: auto;
+  }
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
