@@ -75,6 +75,9 @@ body {
     color: rgb(255, 255, 255)!important;
     border-color: var(--red)!important;
 }
+.filter-button-group .btn:hover{
+    color: rgb(255, 255, 255)!important;
+}
 .collection-img span{
     top: 5px;
     right: -5px;
