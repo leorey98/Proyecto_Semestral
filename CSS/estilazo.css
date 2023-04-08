@@ -93,6 +93,24 @@ body {
     max-width: 50%;
     height: auto;
   }
+/*Ofertas*/
+.ofertas-img span{
+    top: 20px;
+    right: 20px;
+}
+.ofertas-list .btn{
+    padding: 8px 20px!important;
+}
+.ofertas-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.ofertas-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
 /*media-queries*/
 @media(min-width: 992px){
     .nav-item{
