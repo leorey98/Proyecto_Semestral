@@ -90,6 +90,7 @@ body {
     max-width: 50%;
     height: auto;
   }
+/*media-queries*/
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;
